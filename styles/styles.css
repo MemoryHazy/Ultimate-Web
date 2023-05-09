@@ -1,6 +1,127 @@
-@import url(./_header);
-@import url(./_variables);
+.color {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  color: #fff;
+}
+
 body {
   position: relative;
   background: #041836;
+}
+body header {
+  width: 1300px;
+  margin: 25px auto;
+}
+body header nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+}
+body header nav ul {
+  margin-left: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+body header nav ul a {
+  padding: 20px 20px;
+  text-decoration: none;
+  transition: 0.5s;
+}
+body header nav ul a:hover {
+  color: #4690FF;
+}
+body header nav .buttons {
+  display: flex;
+  gap: 20px;
+}
+body header nav .buttons .btn1 {
+  border: 1px solid #4690FF;
+  border-radius: 20px;
+  padding: 15px 50px;
+  background: none;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  gap: 12px;
+  transition: 0.5s;
+}
+body header nav .buttons .btn1:hover {
+  background-color: #4690FF;
+}
+body header nav .buttons .btn2 {
+  border: 1px solid #4690FF;
+  border-radius: 20px;
+  padding: 15px 50px;
+  background: #4690FF;
+  cursor: pointer;
+  transition: 0.5s;
+}
+body header nav .buttons .btn2:hover {
+  background: none;
+}
+body .container {
+  display: flex;
+  flex-direction: row;
+  width: 1300px;
+  margin: 100px auto;
+  gap: 150px;
+}
+body .container .left {
+  display: flex;
+  flex-direction: column;
+}
+body .container .left h1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 59px;
+  line-height: 125%;
+  color: #fff;
+}
+body .container .left p {
+  margin-top: 50px;
+}
+body .container .left button {
+  color: #fff;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  padding: 15px 30px;
+  display: flex;
+  gap: 15px;
+  background: #4690FF;
+  border-radius: 20px;
+  border: none;
+  margin-top: 80px;
+  cursor: pointer;
+}
+body .container .right {
+  margin-top: 80px;
+}
+body .partners {
+  display: flex;
+  flex-direction: column;
+  width: 1300px;
+  margin: 75px auto;
+  text-align: center;
+}
+body .partners p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #fff;
+}
+body .partners .comp {
+  display: flex;
+  flex-direction: row;
+  gap: 90px;
+  margin-top: 60px;
 }/*# sourceMappingURL=styles.css.map */
